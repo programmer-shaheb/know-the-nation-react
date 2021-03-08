@@ -1,0 +1,31 @@
+.container {
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 10px lightgray;
+  border-radius: 10px;
+  /* width: 1000px; */
+  padding: 10px;
+  margin: 10px;
+}
+
+.sub-container {
+  text-align: center;
+}
+
+.btn {
+  background: #4fb9ff;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  position: relative;
+  box-shadow: 5px 4px 10px #c6dbe9;
+  right: 15px;
+  color: rgb(12, 38, 71);
+}
+
+.btn:hover {
+  cursor: pointer;
+  border: 1px solid #3fb2ff;
+}
